@@ -1,9 +1,13 @@
 <script>
 	import "../app.css";
 </script>
+
+<body class="bg-radial-gradient">
+    
+
 <main class="flex">
-	<section class="w-1/4 flex-1 bg-gray-900 p-4 text-gray-800 dark:text-white fixed h-screen overflow-y-auto">
-		<div>
+	<section class="w-2/5 flex-1 p-4 text-white fixed h-screen overflow-y-auto">
+		<div class="p-10">
 			<h2 class="text-2xl font-semibold capitalize">Brent Blake</h2>
 			<p class="text-lg">Walvis Bay, Namibia</p>
 			<p class="text-lg">github.com/brentvblake</p>
@@ -11,20 +15,35 @@
 			<p class="text-lg">linkedin.com/in/brentvblake</p>
 			<!-- Add more personal information as needed -->
 		</div>
+        <div class = "fixed bottom-4 left-4 bg-gray-800 p-4 rounded-lg">
+            <div class="flex items-center space-x-4">
+                <img src="/dino.jpeg" alt="Brent" class="w-10 h-10 rounded-full ring-4 ring-purple-500">
+            
+                <a href="https://github.com/brentvblake" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 text-white hover:text-blue-400">
+                    <img src="/github.svg" alt="GitHub logo" class="w-10 h-10 text-white fill=currentColor">
+                    <span>Github</span>
+                </a>
+            
+                <a href="https://linkedin.com/in/brentvblake" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 text-white hover:text-blue-400">
+                    <img src="/linkedin.svg" alt="LinkedIn logo" class="w-10 h-10 text-white fill-currentColor ">
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
 	</section>
 	
 	
-	<section class="w-3/4 ml-[25%] bg-white dark:bg-gray-900">
+	<section class="w-3/5 ml-[40%]">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Portfolio
+        <h1 class="text-2xl font-semibold text-center text-white">Portfolio
         </h1>
 
-        <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
+        <p class="mt-4 text-center text-gray-300">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
         </p>
 
 
-        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-1 xl:grid-cols-1">
             <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
                 style="background-image:url('https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80')">
                 <div
@@ -55,3 +74,4 @@
     </div>
 </section>
 </main>
+</body>

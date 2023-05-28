@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background: #1a202c;
+html{
+    background-color: #161b22;
 }
+
+body {
+    /* background: url('./africa-contour-lines.svg') no-repeat center center fixed; */
+    /* background-size: cover; */
+    /* animation: background-animation 2s infinite; */
+    margin: 0;
+    background-image: radial-gradient(#0e1117, #161b22);
+}
+/* @keyframes background-animation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+} */
+
+  
+  
