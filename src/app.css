@@ -12,6 +12,7 @@ body {
     /* animation: background-animation 2s infinite; */
     margin: 0;
     background-image: radial-gradient(#0e1117, #161b22);
+    font-family: 'Ubuntu', sans-serif;
 }
 /* @keyframes background-animation {
     0% {
