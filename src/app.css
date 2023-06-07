@@ -3,25 +3,22 @@
 @tailwind utilities;
 
 html{
-    background-color: #161b22;
+    background-color: #5cdb95;
 }
 
 body {
-    /* background: url('./africa-contour-lines.svg') no-repeat center center fixed; */
-    /* background-size: cover; */
-    /* animation: background-animation 2s infinite; */
     margin: 0;
-    background-image: radial-gradient(#0e1117, #161b22);
+    background-image: url('/background.jpg');
     font-family: 'Ubuntu', sans-serif;
 }
-/* @keyframes background-animation {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 100% 100%;
-    }
-} */
+
+.center-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+  
 
   
   
